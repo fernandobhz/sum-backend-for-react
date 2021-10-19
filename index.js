@@ -3,6 +3,10 @@ const app = express();
 
 app.use(express.json());
 
+app.get(`/`, (req, res) => {
+  res.json(new Date());
+});
+
 app.post(`/sum`, (req, res) => {
   const {a,b} = req.body;
   const result = Number(a) + Number(b);
