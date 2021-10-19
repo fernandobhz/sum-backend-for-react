@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fernandobhz/sum-backend-for-react/issues"
   },
-  "homepage": "https://github.com/fernandobhz/sum-backend-for-react#readme"
+  "homepage": "https://github.com/fernandobhz/sum-backend-for-react#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
